@@ -221,7 +221,7 @@ local function submit()
         ScreenGui:Destroy()
         Blur:Destroy()
         task.spawn(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/Script/refs/heads/main/FN_AnimalHospital.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/eiis2id2idi/Vexus-hub/refs/heads/main/README.md"))()
         end)
     else
         StatusLabel.Text = "✗ " .. message
